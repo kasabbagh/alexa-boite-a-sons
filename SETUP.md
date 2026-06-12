@@ -20,7 +20,7 @@ chmod +x deploy.sh
 ./deploy.sh
 ```
 
-Note l'ARN affiché à la fin (ça ressemble à `arn:aws:lambda:eu-west-1:261911097306:function:alexa-boite-a-sons`).
+Note l'ARN affiché à la fin (ça ressemble à `arn:aws:lambda:eu-west-1:<TON_ACCOUNT_ID>:function:alexa-boite-a-sons`).
 
 ## Étape 3 : Créer le Skill sur la console Alexa
 
@@ -47,7 +47,7 @@ Note l'ARN affiché à la fin (ça ressemble à `arn:aws:lambda:eu-west-1:261911
 2. Sélectionne **"AWS Lambda ARN"**
 3. Dans **"Default Region"**, colle l'ARN de ta Lambda :
    ```
-   arn:aws:lambda:eu-west-1:261911097306:function:alexa-boite-a-sons
+   arn:aws:lambda:eu-west-1:<TON_ACCOUNT_ID>:function:alexa-boite-a-sons
    ```
 4. Clique **"Save Endpoints"**
 

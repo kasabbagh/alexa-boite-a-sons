@@ -6,7 +6,7 @@ set -e
 
 FUNCTION_NAME="alexa-boite-a-sons"
 REGION="eu-west-1"
-ACCOUNT_ID="261911097306"
+ACCOUNT_ID="${AWS_ACCOUNT_ID:?Set AWS_ACCOUNT_ID environment variable}"
 ROLE_NAME="alexa-skill-lambda-role"
 ROLE_ARN="arn:aws:iam::${ACCOUNT_ID}:role/${ROLE_NAME}"
 
