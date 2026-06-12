@@ -1,0 +1,108 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "boîte à sons",
+      "intents": [
+        {
+          "name": "PlaySoundIntent",
+          "slots": [
+            {
+              "name": "son",
+              "type": "SOUND_TYPE"
+            }
+          ],
+          "samples": [
+            "{son}",
+            "joue {son}",
+            "fais le bruit de {son}",
+            "fais le son de {son}",
+            "le bruit de {son}",
+            "le son de {son}",
+            "je veux {son}",
+            "je veux entendre {son}",
+            "fais {son}",
+            "imite {son}",
+            "un {son}",
+            "une {son}",
+            "le {son}",
+            "la {son}"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "SOUND_TYPE",
+          "values": [
+            { "name": { "value": "ours" } },
+            { "name": { "value": "oiseau" } },
+            { "name": { "value": "chat" } },
+            { "name": { "value": "chaton" } },
+            { "name": { "value": "poulet" } },
+            { "name": { "value": "poule" } },
+            { "name": { "value": "corbeau" } },
+            { "name": { "value": "chien" } },
+            { "name": { "value": "éléphant", "synonyms": ["elephant"] } },
+            { "name": { "value": "cheval" } },
+            { "name": { "value": "galop" } },
+            { "name": { "value": "lion" } },
+            { "name": { "value": "singe" } },
+            { "name": { "value": "rat" } },
+            { "name": { "value": "souris" } },
+            { "name": { "value": "coq" } },
+            { "name": { "value": "mouton" } },
+            { "name": { "value": "dinde" } },
+            { "name": { "value": "loup" } },
+            { "name": { "value": "avion" } },
+            { "name": { "value": "vélo", "synonyms": ["velo"] } },
+            { "name": { "value": "bus" } },
+            { "name": { "value": "voiture" } },
+            { "name": { "value": "klaxon" } },
+            { "name": { "value": "moto" } },
+            { "name": { "value": "métro", "synonyms": ["metro"] } },
+            { "name": { "value": "tremblement de terre" } },
+            { "name": { "value": "éclair" } },
+            { "name": { "value": "océan", "synonyms": ["ocean"] } },
+            { "name": { "value": "vague" } },
+            { "name": { "value": "pluie" } },
+            { "name": { "value": "orage" } },
+            { "name": { "value": "tonnerre" } },
+            { "name": { "value": "rivière", "synonyms": ["riviere"] } },
+            { "name": { "value": "vent" } },
+            { "name": { "value": "porte" } },
+            { "name": { "value": "sonnette" } },
+            { "name": { "value": "cheminée", "synonyms": ["cheminee"] } },
+            { "name": { "value": "aspirateur" } },
+            { "name": { "value": "bébé", "synonyms": ["bebe"] } },
+            { "name": { "value": "applaudissements" } },
+            { "name": { "value": "bravo" } },
+            { "name": { "value": "huées" } },
+            { "name": { "value": "rire" } },
+            { "name": { "value": "toux" } },
+            { "name": { "value": "éternuement" } },
+            { "name": { "value": "feux d'artifice" } },
+            { "name": { "value": "fantôme", "synonyms": ["fantome"] } },
+            { "name": { "value": "trompette" } },
+            { "name": { "value": "tambour" } },
+            { "name": { "value": "guitare" } }
+          ]
+        }
+      ]
+    }
+  }
+}
